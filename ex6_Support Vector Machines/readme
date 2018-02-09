@@ -1,1 +1,2 @@
-
+Most SVM software packages automatically add the extra feature x0 = 1 for you and automatically take care of learning the intercept term 0
+. So when passing your training data to the SVM software, there is no need to add this extra feature x0 = 1 yourself.
